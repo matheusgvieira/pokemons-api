@@ -4,8 +4,6 @@ WORKDIR /app
 
 COPY package*.json ./
 
-COPY .npmrc .
-
 RUN npm ci --only=production 
 
 EXPOSE 3333
