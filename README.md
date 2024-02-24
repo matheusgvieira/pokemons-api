@@ -58,6 +58,20 @@ $ npm run start:dev
 
 http://localhost:3333/docs
 
+## View command deploy
+
+```bash
+# watch mode
+$ fly deploy
+```
+
+## View add secret
+
+```bash
+# watch mode
+$ fly secrets set SECRET_NAME=ANY_VALUE
+```
+
 ## Deployed in fly
 
 https://pokemons-api-fragrant-star-3436.fly.dev/docs
